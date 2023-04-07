@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    }
+    
+    .sidebar {
+    background-color: #f89797;
+    flex-basis: 25%;
+    }
+    
+    .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    }
+    
+    .main-section {
+    flex-grow: 1;
+    background-color: #f16a6a;
+    }
+    
+    @media screen and (max-width: 640px) {
+    .container {
+    flex-direction: column;
+    }
+}
